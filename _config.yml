@@ -1,0 +1,12 @@
+# Site settings
+title: Vera's Blog
+email: vera@originatechina.com
+description: > # this means to ignore newlines until "baseurl:"
+  I have never wrote anything about my work. This is a good try for me to record the timeline of my work from 2015.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://shenyueting1234.com" # the base hostname & protocol for your site
+twitter_username: verashen
+github_username:  VeraShen
+
+# Build settings
+markdown: kramdown
