@@ -1,12 +1,34 @@
 # Site settings
-title: Vera's Blog
-email: vera@originatechina.com
-description: > # this means to ignore newlines until "baseurl:"
-  I have never wrote anything about my work. This is a good try for me to record the timeline of my work from 2015.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://shenyueting1234.com" # the base hostname & protocol for your site
-twitter_username: verashen
-github_username:  VeraShen
+title: Refollow
+email: support@refollow.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Originate
+  location: Location
+  social: Follow us
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/refollow
+  - title: facebook
+    url: http://facebook.com/Refollow
+  - title: tumblr
+    url: http://refollow.tumblr.com
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 580 Market St
+  - line: San Francisco, CA 94104
 
 # Build settings
 markdown: kramdown
+permalink: pretty
