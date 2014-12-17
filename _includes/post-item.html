@@ -1,0 +1,15 @@
+<!-- page item -->
+<div class="col-sm-4 education-item">
+    <a href="{{ include.post.url | prepend: site.baseurl }}" class="education-link" data-toggle="modal">
+        <div class="caption">
+            <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+        </div>
+        <img src="/img/guides/{{ include.post.img }}" class="img-responsive" alt="{{ include.post.alt }}">
+    </a>
+    <div class="page-brief">
+        <p class="page-name">{{ include.post.title }}</p>
+        <p class="page-desc">{{ include.post.description }}</p>
+    </div>
+</div>

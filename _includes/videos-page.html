@@ -1,19 +1,18 @@
-    <!-- Video Section -->
-    <section id="videos" class="success">
+    <!-- Video page -->
+    <section id="videos" class="page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Video Walkthroughs</h2>
                     <hr>
+                    <p class="page-intro">Videos showcasing many of the features in Refollow and tips for getting the most out of those features.  New content will be posted regurlarly.</p>
                 </div>
             </div>
             <div class="row">
                 {% for category in site.categories %}
-                    {% if category[0] == "videos" %}    
+                    {% if category[0] == "guides" %}    
                         {% for post in category[1] %}
-                            {% if forloop.index < 4 %}
-                                {% include post-item.html post=post %}
-                            {% endif %}
+                            {% include post-item.html post=post %}
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
