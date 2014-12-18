@@ -9,5 +9,12 @@
 
         {% include footer.html %}
         {% include js.html %}
+        <script type="text/javascript">
+        	$(function(){
+        		$('#videos .caption a').click(function(){
+					$.colorbox();
+        		});
+        	}); 
+        </script>
     </body>
 </html>
