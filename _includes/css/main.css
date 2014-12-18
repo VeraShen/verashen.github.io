@@ -189,6 +189,10 @@ section hr {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    white-space: nowrap;
 
 }
 .page-desc {
