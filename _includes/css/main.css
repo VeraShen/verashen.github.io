@@ -230,7 +230,7 @@ section hr {
     transition: all ease .5s;
 }
 
-.education-item .education-link .caption:hover {
+.education-item .education-link:hover .caption{
     opacity: 1;
     cursor: pointer;
 }
