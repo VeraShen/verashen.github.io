@@ -207,9 +207,43 @@ section hr {
     white-space: nowrap;
 }
 .post {
-    margin-top: 60px;
+    margin-top: 50px;
 }
-
+.post h3 {
+    font-size: 34px;
+    color: #515151;
+    line-height: 46px;
+    text-align: center;
+}
+.post h6 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    text-align: center;
+}
+.post hr {
+    width: 100%;
+    margin: 30px 0 40px;
+}
+.post p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.post p img {
+    margin: 0 auto;
+    display: block;
+}
+.operators {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.operators td, .operators th {
+    padding: 2px 10px;
+}
 
 .education-item {
     right: 0;
@@ -251,15 +285,6 @@ section hr {
     text-align: center;
     font-size: 20px;
     color: #fff;
-}
-
-.education-item .education-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-.education-item .education-link .caption .caption-content h3,
-.education-item .education-link .caption .caption-content h4 {
-    margin: 0;
 }
 
 #guides * {

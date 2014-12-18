@@ -11,10 +11,8 @@
             <div class="row">
                 {% for category in site.categories %}
                     {% if category[0] == "guides" %}    
-                        {% for post in category[1] %}
-                            {% if forloop.index < 4 %}
-                                {% include post-item.html post=post %}
-                            {% endif %}
+                        {% for post in category[1] | limit: 3 %}
+                            {% include post-item.html post=post %}
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
