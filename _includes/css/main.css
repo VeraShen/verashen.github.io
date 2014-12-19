@@ -237,6 +237,25 @@ section hr {
     margin: 0 auto;
     display: block;
 }
+.post iframe {
+    margin: 0 auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+}
+@media (max-width: 830px) {
+    .post iframe {
+        width: 600px;
+        height: 450px;
+    }
+}
+@media (max-width: 630px) {
+    .post iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+
 .operators {
     width: 100%;
     margin-bottom: 20px;
