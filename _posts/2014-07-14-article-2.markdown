@@ -1,8 +1,0 @@
----
-layout: post
-date: 2014-07-14
-img: safe.png
-category: Articles
-description: I am description of article 2
-
----

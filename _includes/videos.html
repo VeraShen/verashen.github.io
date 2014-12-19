@@ -8,12 +8,13 @@
                 </div>
             </div>
             <div class="row">
-                {% for category in site.categories %}
-                    {% if category[0] == "videos" %}    
-                        {% for post in category[1] | limit: 3 %}
-                            {% include post-item.html post=post %}
-                        {% endfor %}
-                    {% endif %}
+                {% for post in site.categories['videos'] | limit: 3 %}
+                    {% include post-item.html post = post %}
+                {% endfor %}
+                                    
+                {% assign time = site.categories['videos'].size %}
+                {% for i in (time..2) %}
+                    {% include coming-soon-item.html %}  
                 {% endfor %}
             </div>
             <div class="show-more"><a href="/videos">&gt; &gt; More</a></div>

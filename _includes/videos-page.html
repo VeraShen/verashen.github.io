@@ -9,12 +9,8 @@
                 </div>
             </div>
             <div class="row">
-                {% for category in site.categories %}
-                    {% if category[0] == "videos" %}    
-                        {% for post in category[1] %}
-                            {% include post-item.html post=post %}
-                        {% endfor %}
-                    {% endif %}
+                {% for post in site.categories['videos'] %}
+                    {% include post-item.html post = post %}
                 {% endfor %}
             </div>
         </div>
